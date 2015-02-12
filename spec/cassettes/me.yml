@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://app.planning-de-garde.fr/api/v1/me.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Authorization:
+      - Bearer 433915e7703a658ce295390becb622070ea8e2f16bffd4d11c56a661723e403d
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Thu, 12 Feb 2015 09:49:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d144932606d57f2d0f48ea00f78beaa251423734563; expires=Fri, 12-Feb-16
+        09:49:23 GMT; path=/; domain=.planning-de-garde.fr; HttpOnly
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"4dbb4716dd1f5c3fc06f605ea1f00e56"
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      X-Request-Id:
+      - 586abc66-f3c3-4e6d-b693-9bf01546eb7c
+      X-Runtime:
+      - '0.022653'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 vegur
+      Cf-Ray:
+      - 1b77e03e62d81565-CDG
+    body:
+      encoding: UTF-8
+      string: '{"user":{"id":1,"email":"test@gmail.com","first_name":"Etienne","last_name":"Depaulis","speciality_name":"Biologie
+        médicale","city_name":"Lyon"}}'
+    http_version:
+  recorded_at: Thu, 12 Feb 2015 09:49:23 GMT
+recorded_with: VCR 2.9.3
