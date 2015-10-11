@@ -3,7 +3,7 @@ module PlanningDeGarde
     attr_accessor :app_id, :app_secret, :site
 
     def initialize
-      @site = "https://app.planning-de-garde.fr/"
+      @site = "https://api.planning-de-garde.fr/"
     end
   end
 

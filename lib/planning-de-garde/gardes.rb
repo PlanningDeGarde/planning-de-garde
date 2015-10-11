@@ -25,7 +25,7 @@ module PlanningDeGarde
 
         gardes = self.new(params)
 
-        json["gardes"].each do |garde_info|
+        json.each do |garde_info|
           gardes.add_garde Garde.new(garde_info)
         end
 

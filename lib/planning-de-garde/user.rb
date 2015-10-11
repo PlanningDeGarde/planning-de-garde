@@ -13,7 +13,7 @@ module PlanningDeGarde
       if response.status == 200
         json = JSON.parse response.body
 
-        self.new(json["user"])
+        self.new(json)
       end
 
     end

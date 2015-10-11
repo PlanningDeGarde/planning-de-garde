@@ -17,12 +17,9 @@ module PlanningDeGarde
         @oauth2_client ||= OAuth2::Client.new(app_id, app_secret, site: site)
       end
 
-
       def oauth2_access_token
         @oauth2_access_token ||= OAuth2::AccessToken.new(oauth2_client, current_token)
       end
-
-
 
       def app_id
         PlanningDeGarde.configuration.app_id
@@ -37,7 +34,7 @@ module PlanningDeGarde
       end
 
       def api_url(url)
-        "/api/v1#{url}.json"
+        "/v2#{url}.json"
       end
 
   end
