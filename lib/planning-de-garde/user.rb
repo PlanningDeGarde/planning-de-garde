@@ -5,6 +5,10 @@ module PlanningDeGarde
     attribute :email, String
     attribute :first_name, String
     attribute :last_name, String
+    attribute :portable, String
+    attribute :speciality_name, String
+    attribute :city_name, String
+
 
     def self.me(client)
 

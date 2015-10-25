@@ -7,6 +7,8 @@ module PlanningDeGarde
   require 'planning-de-garde/client'
   require 'planning-de-garde/api'
   require 'planning-de-garde/configuration'
+  require 'planning-de-garde/line'
+  require 'planning-de-garde/planning'
   require 'planning-de-garde/user'
   require 'planning-de-garde/gardes'
   require 'planning-de-garde/garde'
