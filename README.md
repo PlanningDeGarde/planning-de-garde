@@ -1,6 +1,6 @@
 # Planning de garde
 
-Planning de garde is a ruby client for [Planning de garde](https://www.planning-de-garde.fr/) JSON API.
+Planning de garde is a ruby client for [Planning de garde](https://www.planning-de-garde.fr/) JSON API ([documentation](http://developers.planning-de-garde.fr/)).
 
 ## Installation
 
@@ -40,7 +40,7 @@ calling `PlanningDeGarde.configure like so:
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Etienne Depaulis
+Copyright (c) 2015-2016 Honestica
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
